@@ -7,7 +7,7 @@ export default function Projects() {
   return (
     <section className="section-block" id="work">
       <div className="wrap">
-        <SectionHeader num="004" label="selected work" annotation="2024 — 2026 · five entries" />
+        <SectionHeader num="004" label="selected work" annotation="2024 — 2025 · four entries" />
         <div className="ledger">
           {/* desktop header row — hidden by default, shown at lg+ via CSS */}
           <div className="ledger-head">
@@ -41,12 +41,23 @@ export default function Projects() {
                   </p>
                 </div>
 
-                {/* role + stack */}
+                {/* role + stack + link */}
                 <div className="flex flex-col gap-3 pt-1">
                   <span className="mono acc">{pr.role}</span>
                   <div className="entry-stack flex flex-wrap gap-[6px]">
                     {pr.stack.map((s) => <span key={s}>{s}</span>)}
                   </div>
+                  {pr.url && (
+                    <a
+                      href={pr.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="mono"
+                      style={{ color: "var(--muted-ink)", textDecoration: "none", marginTop: 4 }}
+                    >
+                      visit ↗
+                    </a>
+                  )}
                 </div>
               </article>
             </ScrollReveal>

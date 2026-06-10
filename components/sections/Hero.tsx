@@ -5,7 +5,7 @@ export default function Hero() {
   const P = PORTFOLIO;
   return (
     /* mobile: less padding; lg+: full padding */
-    <section className="px-4 pt-14 pb-14 md:pt-20 lg:pt-24 lg:pb-24" id="top">
+    <section className="max-w-7xl mx-auto px-4 pt-14 pb-14 md:pt-20 lg:pt-24 lg:pb-24" id="top">
 
       {/* annotation row */}
       <ScrollReveal>

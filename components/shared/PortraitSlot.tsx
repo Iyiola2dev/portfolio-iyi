@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useRef } from "react";
+import Image from "next/image";
 
 export default function PortraitSlot() {
   const [src, setSrc] = useState<string | null>(null);
@@ -19,6 +20,8 @@ export default function PortraitSlot() {
     if (file) setSrc(URL.createObjectURL(file));
   };
 
+  const imgSrc = src ?? "/portrait.jpg";
+
   return (
     <div
       onDrop={handleDrop}
@@ -29,18 +32,26 @@ export default function PortraitSlot() {
         width: "100%", height: "420px",
         border: `1px solid ${dragging ? "var(--accent-ink)" : "var(--line)"}`,
         background: "var(--panel)",
-        display: "flex", alignItems: "center", justifyContent: "center",
         cursor: "pointer", transition: "border-color .2s",
-        overflow: "hidden",
+        overflow: "hidden", position: "relative",
       }}
     >
-      {src ? (
-        // eslint-disable-next-line @next/next/no-img-element
-        <img src={src} alt="Portrait" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
-      ) : (
-        <span className="mono text-center px-4" style={{ textTransform: "none", fontSize: "13px" }}>
-          {dragging ? "drop it" : "Drop your portrait here or click to upload"}
-        </span>
+      <Image
+        src={imgSrc}
+        alt="Afuye Iyiola"
+        fill
+        sizes="(max-width: 1024px) 100vw, 380px"
+        style={{ objectFit: "cover", objectPosition: "top center" }}
+        priority
+      />
+      {dragging && (
+        <div style={{
+          position: "absolute", inset: 0,
+          background: "rgba(22,19,15,.7)",
+          display: "flex", alignItems: "center", justifyContent: "center",
+        }}>
+          <span className="mono" style={{ textTransform: "none", fontSize: "13px" }}>drop to replace</span>
+        </div>
       )}
       <input ref={inputRef} type="file" accept="image/*" className="hidden" onChange={handleFileChange} />
     </div>
