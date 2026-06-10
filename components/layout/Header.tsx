@@ -5,7 +5,7 @@ import MobileNav from "./MobileNav";
 export default function Header() {
   return (
     <header className="bar">
-      <div className=" flex items-center justify-between gap-4 p-3.5 md:p-4.5">
+      <div className="max-w-7xl mx-auto flex items-center justify-between gap-4 p-3.5 md:p-4.5">
 
         {/* signature */}
         <a className="sig" href="#top">

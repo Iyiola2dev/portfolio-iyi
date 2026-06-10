@@ -3,22 +3,24 @@ export const PORTFOLIO = {
   firstName: "Afuye",
   title: "Full-Stack & Mobile Developer",
   positioning:
-    "I build web and mobile products end-to-end from the database schema to the last sixteen pixels.",
+    "Full-stack engineer building scalable web and mobile products with TypeScript, Next.js, NestJS, and React Native from real-time systems to payment integrations.",
   location: "Lagos, Nigeria · remote-friendly",
   availability: "Open to roles & freelance",
   email: "iyioladan11@gmail.com",
 
   about: [
-    "I'm a full-stack and mobile developer based in Lagos. In two years I've taken four products from first commit to production an AI sports platform, a live marketplace app, and client sites serving users across three continents.",
-    "TypeScript is my default. On the web I reach for Next.js and React; on mobile, React Native with Expo. Behind the scenes I wire up Node.js or NestJS APIs, PostgreSQL or MongoDB for the data layer, and Docker and Render to ship it.",
-    "Right now I'm at Simul Management Solutions where I built SimServiceHub — a marketplace that connects artisans with customers — end-to-end, from schema design to App Store release.",
+    "I'm a full-stack software engineer based in Lagos, building production web and mobile applications with TypeScript, Next.js, NestJS, and React Native. I've shipped four live products spanning AI, marketplaces, e-commerce, and tourism.",
+    "TypeScript is my default across the entire stack. I'm comfortable with real-time systems via Socket.io and WebSockets, payment integrations with Paystack, GraphQL APIs, and AI product features using the OpenAI and Claude APIs.",
+    "Most recently I engineered the frontend and backend at Boomscore admin dashboard, RBAC auth, subscription billing, and real-time live scores and at Simul Management Solutions where I architected SimServiceHub end-to-end, from database schema to App Store release.",
   ],
 
   skills: [
-    { group: "Frontend", items: ["React", "TypeScript", "Next.js", "Tailwind CSS", "Framer Motion"] },
-    { group: "Mobile", items: ["React Native", "Expo", "App Store & Play releases"] },
-    { group: "Backend", items: ["Node.js", "Fastify", "PostgreSQL", "MongoDB","Redis", "REST & WebSockets"] },
-    { group: "Tooling", items: ["Docker", "Render", "GitHub Actions", "Vitest"] },
+    { group: "Frontend", items: ["TypeScript", "React", "Next.js", "Redux", "Tailwind CSS", "NativeWind"] },
+    { group: "Mobile", items: ["React Native", "Expo", "Push Notifications", "App Store releases"] },
+    { group: "Backend", items: ["Node.js", "NestJS", "GraphQL", "REST APIs", "WebSockets", "Socket.io", "Flask"] },
+    { group: "Databases", items: ["PostgreSQL", "MongoDB", "MySQL", "Redis", "Prisma", "Drizzle"] },
+    { group: "Payments", items: ["Paystack", "Webhooks", "Invoice generation"] },
+    { group: "Tools & AI", items: ["Docker", "AWS", "Vercel", "Firebase", "GitHub Actions", "OpenAI API", "Claude API"] },
   ],
 
   projects: [
@@ -30,7 +32,7 @@ export const PORTFOLIO = {
       role: "Full-Stack Developer",
       url: "https://www.boomscore.ai/",
       stack: ["Next.js", "NestJS", "PostgreSQL", "GraphQL", "Docker", "Render"],
-      blurb: "AI-powered sports prediction platform — chat with the AI, predict match outcomes, and follow live scores in real time.",
+      blurb: "AI-powered sports prediction platform  chat with the AI, predict match outcomes, and follow live scores in real time.",
       outcome: "Live at boomscore.ai",
     },
     {
@@ -39,9 +41,9 @@ export const PORTFOLIO = {
       year: "2025",
       kind: "Mobile · Marketplace",
       role: "Full-Stack Mobile Developer",
-      url: "https://apps.apple.com/us/app/simservicehub/id6762186286",
+      url: "https://www.simservicehub.com",
       stack: ["React Native", "Expo", "NativeWind"],
-      blurb: "Marketplace app that connects artisans with customers — browse, book, and manage services end-to-end.",
+      blurb: "Marketplace app that connects artisans with customers browse, book, and manage services end-to-end.",
       outcome: "Available on the App Store",
     },
     {
@@ -52,7 +54,7 @@ export const PORTFOLIO = {
       role: "Full-Stack Developer",
       url: "https://www.altaninfinity.de/",
       stack: ["React", "Express", "MongoDB", "REST API", "Render"],
-      blurb: "Online presence for a Germany-based bespoke shoemaker — service catalogue, repair booking, and admin dashboard.",
+      blurb: "Online presence for a Germany-based bespoke shoemaker service catalogue, repair booking, and admin dashboard.",
       outcome: "Live at altaninfinity.de",
     },
     {
@@ -63,23 +65,23 @@ export const PORTFOLIO = {
       role: "Full-Stack Developer",
       url: "https://www.blueberryzanzibar.com/",
       stack: ["Next.js", "Tailwind CSS", "Google SMTP"],
-      blurb: "Tour guide and taxi booking site for a Zanzibar operator — clean landing page with an integrated contact form.",
+      blurb: "Tour guide and taxi booking site for a Zanzibar operator clean landing page with an integrated contact form.",
       outcome: "Live at blueberryzanzibar.com",
     },
   ],
 
   experience: [
     {
-      org: "Simul Management Soloutions ",
-      role: "Full-Stack Developer - Mobile Developer",
-      period: "May 2025 — Present",
-      note: "Built SimServiceHub — a mobile marketplace connecting artisans with customers, from architecture to App Store launch.",
+      org: "Boomscore",
+      role: "Mid-Level Full-Stack Engineer",
+      period: "Contract · Lagos, Nigeria",
+      note: "Built the admin dashboard, three-tier RBAC with JWT auth, subscription and billing module with Paystack, betting slip system, and Socket.io real-time live scores. Contributed GraphQL resolvers and NestJS services across the API.",
     },
     {
-      org: "Freelance",
-      role: "Web Developer",
-      period: "2023 — 2024",
-      note: "Build an e-commerce website for a local business.",
+      org: "Simul Management Solutions",
+      role: "Full-Stack & Mobile Engineer",
+      period: "Remote · United Kingdom",
+      note: "Architected SimServiceHub from scratch dual-role artisan marketplace with 20+ screens, real-time WebSocket messaging, Expo push notifications, AI chatbot (SIMI) with RAG-based Q&A, and a job-posting wizard with AI-assisted descriptions.",
     },
   ],
 
