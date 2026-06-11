@@ -52,7 +52,7 @@ export default function Contact() {
           className="flex flex-wrap justify-between gap-4 mt-12 md:mt-[72px] pt-4"
           style={{ borderTop: "1px solid var(--faint)" }}
         >
-          <span className="mono">spectral &amp; ibm plex mono · no template harmed</span>
+          <span className="mono">shigoto o motte kite kudasai.</span>
           <a className="mono totop" href="#top">↑ top</a>
           <span className="mono">© 2026 {P.name.toLowerCase()}</span>
         </div>

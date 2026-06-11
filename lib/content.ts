@@ -3,13 +3,13 @@ export const PORTFOLIO = {
   firstName: "Afuye",
   title: "Full-Stack & Mobile Developer",
   positioning:
-    "Full-stack engineer building scalable web and mobile products with TypeScript, Next.js, NestJS, and React Native from real-time systems to payment integrations.",
+    "Full-stack engineer building scalable web and mobile products with TypeScript, Next.js, NestJS, Express and React Native from real-time systems to payment integrations.",
   location: "Lagos, Nigeria · remote-friendly",
   availability: "Open to roles & freelance",
   email: "iyioladan11@gmail.com",
 
   about: [
-    "I'm a full-stack software engineer based in Lagos, building production web and mobile applications with TypeScript, Next.js, NestJS, and React Native. I've shipped four live products spanning AI, marketplaces, e-commerce, and tourism.",
+    "I'm a full-stack software engineer based in Lagos, building production web and mobile applications with TypeScript, Next.js, NestJS, Express and React Native. I've shipped four live products spanning AI, marketplaces, e-commerce, and tourism.",
     "TypeScript is my default across the entire stack. I'm comfortable with real-time systems via Socket.io and WebSockets, payment integrations with Paystack, GraphQL APIs, and AI product features using the OpenAI and Claude APIs.",
     "Most recently I engineered the frontend and backend at Boomscore admin dashboard, RBAC auth, subscription billing, and real-time live scores and at Simul Management Solutions where I architected SimServiceHub end-to-end, from database schema to App Store release.",
   ],
@@ -19,8 +19,8 @@ export const PORTFOLIO = {
     { group: "Mobile", items: ["React Native", "Expo", "Push Notifications", "App Store releases"] },
     { group: "Backend", items: ["Node.js", "NestJS", "GraphQL", "REST APIs", "WebSockets", "Socket.io", "Flask"] },
     { group: "Databases", items: ["PostgreSQL", "MongoDB", "MySQL", "Redis", "Prisma", "Drizzle"] },
-    { group: "Payments", items: ["Paystack", "Webhooks", "Invoice generation"] },
-    { group: "Tools & AI", items: ["Docker", "AWS", "Vercel", "Firebase", "GitHub Actions", "OpenAI API", "Claude API"] },
+    { group: "Payments", items: ["Paystack", "Webhooks", "Invoice generation", "Stripe"] },
+    { group: "Tools & AI", items: ["Docker", "AWS", "Vercel", "Firebase", "GitHub Actions", "OpenAI API", "Claude"] },
   ],
 
   projects: [
