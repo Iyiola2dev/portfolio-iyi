@@ -19,7 +19,7 @@ export default function Hero() {
       <ScrollReveal delay={0.08}>
         <h1
           style={{
-            fontSize: "clamp(40px, 7.4vw, 104px)",
+            fontSize: "clamp(20px, 7.4vw, 104px)",
             fontWeight: 300,
             lineHeight: 1.04,
             letterSpacing: "-.02em",
@@ -27,9 +27,9 @@ export default function Hero() {
             maxWidth: 1080,
           }}
         >
-          {P.name}. Full-stack &amp; focused on creating high-quality digital products that{" "}
+          {P.name}. Full-stack &amp; mobile developer building real-world{" "}
           <em style={{ fontStyle: "italic", color: "var(--accent-ink)", fontWeight: 400 }}>
-          solve real-world problems.
+        digital products.
           </em>
         </h1>
       </ScrollReveal>
