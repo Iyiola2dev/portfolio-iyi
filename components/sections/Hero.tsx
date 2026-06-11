@@ -27,9 +27,9 @@ export default function Hero() {
             maxWidth: 1080,
           }}
         >
-          {P.name}. Full-stack &amp; mobile developer who ships{" "}
+          {P.name}. Full-stack &amp; focused on creating high-quality digital products that{" "}
           <em style={{ fontStyle: "italic", color: "var(--accent-ink)", fontWeight: 400 }}>
-            finished things.
+          solve real-world problems.
           </em>
         </h1>
       </ScrollReveal>
