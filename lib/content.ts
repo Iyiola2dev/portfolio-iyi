@@ -38,7 +38,7 @@ export const PORTFOLIO = {
     {
       num: "02",
       name: "SimServiceHub",
-      year: "2025",
+      year: "2026",
       kind: "Mobile · Marketplace",
       role: "Full-Stack Mobile Developer",
       url: "https://www.simservicehub.com",
@@ -67,6 +67,17 @@ export const PORTFOLIO = {
       stack: ["Next.js", "Tailwind CSS", "Google SMTP"],
       blurb: "Tour guide and taxi booking site for a Zanzibar operator clean landing page with an integrated contact form.",
       outcome: "Live at blueberryzanzibar.com",
+    },
+    {
+      num: "05",
+      name: "KM & IKS Consultancy",
+      year: "2026",
+      kind: "Web · Consultancy",
+      role: "Frontend Developer",
+      url: "https://www.km-iks.com/",
+      stack: ["Next.js", "Tailwind CSS"],
+      blurb: "Static marketing site for a professional consultancy firm clean, fast, and optimised for lead generation.",
+      outcome: "Live at km-iks.com",
     },
   ],
 
