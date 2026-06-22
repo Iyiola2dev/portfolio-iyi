@@ -41,7 +41,7 @@ export const PORTFOLIO = {
       year: "2026",
       kind: "Mobile · Marketplace",
       role: "Full-Stack Mobile Developer",
-      url: "https://www.simservicehub.com",
+      url: "https://apps.apple.com/us/app/simservicehub/id6762186286",
       stack: ["React Native", "Expo", "NativeWind"],
       blurb: "Marketplace app that connects artisans with customers browse, book, and manage services end-to-end.",
       outcome: "Available on the App Store",
