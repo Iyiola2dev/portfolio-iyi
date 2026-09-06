@@ -7,7 +7,7 @@ export default function Projects() {
   return (
     <section className="section-block" id="work">
       <div className="wrap">
-        <SectionHeader num="004" label="selected work" annotation="2024 — 2026 · five entries" />
+        <SectionHeader num="004" label="selected work" annotation="2024 — 2026 · seven entries" />
         <div className="ledger">
           {/* desktop header row — hidden by default, shown at lg+ via CSS */}
           <div className="ledger-head">

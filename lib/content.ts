@@ -9,7 +9,7 @@ export const PORTFOLIO = {
   email: "iyioladan11@gmail.com",
 
   about: [
-    "I'm a full-stack software engineer based in Lagos, building production web and mobile applications with TypeScript, Next.js, NestJS, Express and React Native. I've shipped four live products spanning AI, marketplaces, e-commerce, and tourism.",
+    "I'm a full-stack software engineer based in Lagos, building production web and mobile applications with TypeScript, Next.js, NestJS, Express and React Native. I've shipped multiple live products spanning AI, marketplaces, e-commerce, messaging, tourism, and non-profit work.",
     "TypeScript is my default across the entire stack. I'm comfortable with real-time systems via Socket.io and WebSockets, payment integrations with Paystack, GraphQL APIs, and AI product features using the OpenAI and Claude APIs.",
     "Most recently I engineered the frontend and backend at Boomscore admin dashboard, RBAC auth, subscription billing, and real-time live scores and at Simul Management Solutions where I architected SimServiceHub end-to-end, from database schema to App Store release.",
   ],
@@ -44,7 +44,7 @@ export const PORTFOLIO = {
       url: "https://apps.apple.com/us/app/simservicehub/id6762186286",
       stack: ["React Native", "Expo", "NativeWind"],
       blurb: "Marketplace app that connects artisans with customers browse, book, and manage services end-to-end.",
-      outcome: "Available on the App Store",
+      outcome: "Live on the App Store and Google Play",
     },
     {
       num: "03",
@@ -78,6 +78,28 @@ export const PORTFOLIO = {
       stack: ["Next.js", "Tailwind CSS"],
       blurb: "Static marketing site for a professional consultancy firm clean, fast, and optimised for lead generation.",
       outcome: "Live at km-iks.com",
+    },
+    {
+      num: "06",
+      name: "NIDC Foundation",
+      year: "2026",
+      kind: "Web · Non-profit",
+      role: "Full-Stack Developer",
+      url: "https://www.nidcfoundation.com/",
+      stack: ["Next.js", "Tailwind CSS", "TypeScript"],
+      blurb: "Site for a Nigerian capacity-building foundation developing talent across energy, manufacturing, and digital infrastructure through applied development hubs.",
+      outcome: "Live at nidcfoundation.com",
+    },
+    {
+      num: "07",
+      name: "PingMe",
+      year: "2026",
+      kind: "Mobile · Messaging",
+      role: "Full-Stack Mobile Developer",
+      url: "",
+      stack: ["React Native", "Expo", "Socket.io"],
+      blurb: "Real-time chat app for one-to-one and group messaging with push notifications.",
+      outcome: "In review on the App Store and Google Play",
     },
   ],
 
