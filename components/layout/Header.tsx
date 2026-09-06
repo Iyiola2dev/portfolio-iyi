@@ -26,7 +26,7 @@ export default function Header() {
         {/* right actions */}
         <div className="flex gap-3 items-center">
           <ThemeToggle />
-          <a className="cv-btn" href="/afuyeresume.pdf" download="Afuye-Iyiola-CV.pdf" aria-label="Download CV">
+          <a className="cv-btn" href="/iyi-cv.pdf" download="iyi-cv.pdf" aria-label="Download CV">
             {/* Mobile: download icon only */}
             <Download size={14} strokeWidth={2.2} className="md:hidden" />
             {/* Desktop: text label */}
